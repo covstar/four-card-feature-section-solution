@@ -104,6 +104,9 @@ h2{
     main {
         padding: 10%;
     }
+    .container-fluid{
+        margin-left: -3%;
+    }
     .headings {
         text-align: center;
         padding: 0 0;
