@@ -1,0 +1,135 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+}
+/* main view / desktop view */
+
+body{
+    background-color: #fafafa;
+    font-family: "karla";
+}
+main{
+    padding: 3% 10%;
+
+}
+
+/* heading */
+
+.headings{
+    padding: 0 27%;
+    font-size: 1.1rem;
+
+}
+.light-head, .bold-head{
+    font-size: 2.5rem;
+}
+.bold-head{
+    color: #4c4e61;
+    font-size: 2.64rem;
+}
+.light-head{
+    font-weight: 200;
+}
+.para-head{
+    color: #a3a5ae;
+    padding: 3% 0;
+}
+
+/* card containers */
+
+.row{
+    position: relative;
+}
+h2{
+    font-size: 1.5rem;
+    color: #4c4e61;
+}
+.card-para{
+    font-size: .9rem;
+    color: #a3a5ae;
+    padding-right: 10%;
+}
+
+.card-imgs{
+    text-align: right;
+}
+.row img{
+    width: 50px;
+    padding-bottom: 20px;
+}
+
+.first-card, .second-card, .third-card, .fourth-card{
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    padding: 2% 3%;
+    box-shadow: 0 8px 15px #a3a5ae;
+}
+
+.first-card{
+    border-top: 3px solid #45d3d3;
+    transform: translate(0, 60%);
+}
+.second-card{
+    border-top: 3px solid #ea5353;
+    transform: translate(110%, 0);
+}
+.third-card{
+    border-top: 3px solid #fcaf4a;
+    transform: translate(110%, 120%);
+}
+.fourth-card{
+    border-top: 3px solid #549ef2;
+    transform: translate(220%, 60%);
+}
+
+/* Footer / Atrribution */
+.attribution {
+    text-align: center;
+    font-size: .8rem;
+    padding: 30rem 2rem 3rem;
+    font-weight: 600;
+    color: hsl(0, 0%, 0%);
+}
+
+.attribution a {
+    text-decoration: none;
+    font-size: .8rem;
+    color: hhsl(218, 44%, 22%);
+}
+
+/* mobile view */
+
+@media (max-width:565px){
+    main {
+        padding: 10%;
+    }
+    .headings {
+        text-align: center;
+        padding: 0 0;
+    
+    }
+    
+    .light-head,
+    .bold-head {
+        font-size: 2rem;
+    }
+    
+    .bold-head {
+        color: #4c4e61;
+        font-size: 2.13rem;
+    }
+    .first-card,
+    .second-card,
+    .third-card,
+    .fourth-card {
+        margin: 3%;
+        position: relative;
+        transform: translate(0);
+        padding: 5% 6%;
+    
+    }
+    .attribution {
+        padding: 0 2rem 3rem;
+    }
+}
