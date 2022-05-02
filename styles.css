@@ -21,11 +21,11 @@ main{
 
 }
 .light-head, .bold-head{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 .bold-head{
     color: #4c4e61;
-    font-size: 2.64rem;
+    font-size: 2.1rem;
 }
 .light-head{
     font-weight: 200;
